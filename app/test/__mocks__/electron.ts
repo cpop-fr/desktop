@@ -16,7 +16,7 @@ export const remote = {
     on: jest.fn(),
   },
   nativeTheme: {
-    addListeners: jest.fn(),
+    addListener: jest.fn(),
     removeAllListeners: jest.fn(),
     shouldUseDarkColors: jest.fn().mockImplementation(() => true),
   },
